@@ -14,7 +14,7 @@
 
 *Building agents that reason, pipelines that scale, and systems that decide.*
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-adam--ghorbel-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/adam-ghorbel-768808326)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-adam--ghorbel-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/mohamed-adam-ghorbel-768808326)
 [![GitHub](https://img.shields.io/badge/GitHub-ademghorbel-181717?style=flat-square&logo=github)](https://github.com/ademghorbel)
 [![Email](https://img.shields.io/badge/Email-adam.ghorbel510@gmail.com-EA4335?style=flat-square&logo=gmail)](mailto:adam.ghorbel510@gmail.com)
 
