@@ -32,10 +32,12 @@ Final-year Data Engineering & Decision Systems (IDSD) student at ENET'Com Sfax, 
 
 ## Projects
 
-### 📄 DocAgent: Agentic Multimodal RAG for Technical Manuals *(in progress)*
-> *LangGraph · ColQwen · Qwen2.5-VL · FAISS · Python*
+### 📄 DocAgent: Agentic Multimodal RAG for Technical Manuals
+> *LangGraph · ColQwen · Qwen2.5-VL · FAISS · Gradio · Python*
 
-When a machine raises an alert, DocAgent reads the equipment's manuals (text, tables and diagrams) and returns a sourced diagnosis with links to the exact pages. Runs on-premise with open-weight models and is benchmarked against text RAG, direct VLM and page-image RAG baselines on 151 questions.
+When a machine raises an alert, DocAgent reads the equipment's manuals (text, tables and diagrams) and returns a sourced diagnosis with links to the exact pages. It runs on-premise with open-weight models (Qwen2.5-VL-7B, 4-bit, free Kaggle T4).
+
+Benchmarked against text RAG, direct VLM and ColQwen page-image RAG on **184 questions**: **+8.7 points** over the best baseline on long single documents (MMLongBench-Doc), **91%** on the in-house drive-manual questions, and **21 of 23** unanswerable questions correctly refused. It still trails page-image RAG on whole-corpus search, which is documented in the analysis.
 
 [![Repo](https://img.shields.io/badge/View_Repo-DocAgent-0ea5e9?style=flat-square&logo=github)](https://github.com/ademghorbel/DocAgent)
 
